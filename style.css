@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh; */
+  background: url(img/pexels-omar-luis-17246772.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+.container{
+  border: 1px solid transparent;
+  height: 350px;
+  width: 0px;
+  border-radius: 10px;
+  /* backdrop-filter: blur(10px); */
+}
+.container input{
+  width: 350px;
+  height: 40px;
+  margin-top: 20px;
+}
+button{
+  width: 300px;
+  height: 40PX;
+  background-color: orangered;
+  border: 1px solid white;
+  font-weight: bold;
+}
+  button:hover{
+    background-color: red;
+    border: 0px solid rgb(4, 99, 4);
+    transition: 1s;
+    cursor: pointer;
+}
+#disp{
+  border:1px solid rgb(214, 160, 160);
+  height: 25vh;
+  width: 400px;
+  box-shadow: 5px 5px 25px  rgb(82, 79, 79);
+  border-radius: 20px;
+  backdrop-filter: blur(50px);
+  margin-top: 30px;
+  color: whitesmoke;
+}
